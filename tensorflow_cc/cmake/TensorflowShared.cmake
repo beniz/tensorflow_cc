@@ -1,7 +1,7 @@
 include(ExternalProject)
 
 ExternalProject_Add(
-  tensorflow_shared
+  tensorflow_shared_gpu
   DEPENDS tensorflow_base
   TMP_DIR "/tmp"
   STAMP_DIR "tensorflow-stamp"
